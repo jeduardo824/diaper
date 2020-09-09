@@ -48,7 +48,7 @@ gem "uglifier", ">= 1.3.0"
 gem "mini_racer", "~> 0.3.1"
 gem "yajl-ruby"
 gem "toastr-rails"
-gem "webpacker", "> 4.0"
+gem "webpacker", "~> 5.1.1"
 gem 'sidekiq-scheduler'
 gem 'bootstrap-daterangepicker-rails'
 gem 'discard', '~> 1.2'
@@ -73,6 +73,7 @@ group :development do
   gem "annotate"
   gem "binding_of_caller"
   gem "better_errors"
+  gem 'capistrano-faster-assets', '~> 1.0'
   gem "capistrano-rails"
   gem "capistrano-rvm"
   gem "capistrano-bundler"
